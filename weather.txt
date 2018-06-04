@@ -1,0 +1,53 @@
+; Written by Sanjeeb Sangraula
+
+; The Scheme program starts
+
+; A method to display the weather condition of a place based on a list of temperatures
+; Input - temps - a list containing the temperatures. 
+; It, temps, contains five integers that represent the current temperature, the normal high 
+; temperature the normal low temperature, the high temperature on that day the previous year, and the
+; low temperature on that day the previous year.
+(define (weather temps)
+  (cond
+    
+    ; Check if the temperature is hot
+    [(> (car temps) (car (cdr temps))) 
+     
+        ; Define the first part of the output as p to print later
+        (define p "It is hot ") 
+        
+        ; Another cond to compare current temperature with last year's temperatures
+        (cond 
+          ((and (> (car temps) (car (cdr temps))) (< (car temps) (car (cdddr temps)))) 
+            (print p "but not as hot as last year.")
+          )
+          (else (print p "just like last year."))
+        )
+    ]
+      
+    
+    ; Check if the weather is cold
+    [(< (car temps) (car (cddr temps)))
+      
+      ; Define the first part of the output as p to print later
+      (define p "It is cold ")
+      
+      ; Another cond to compare current temperature with last year's temperatures
+      (cond 
+            
+        ((and (< (car temps) (car (cddr temps))) (> (car temps) (car (cddddr temps))))
+          (print p "but not as cold as last year.")
+        )
+        (else (print p "just like last year."))
+      )
+    ]
+  
+  
+    ; if the weather isn't hot or cold, and is between the hot and cold weather
+    [else 
+      (print "It is nice just like last year.")
+    ]
+  
+  )
+)
+; The method Ends

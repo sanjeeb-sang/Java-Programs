@@ -1,0 +1,61 @@
+protein("1 cup (250g) plain or vanilla nonfat yogurt or nonfat cottage cheese").
+protein("3 ounces (85g) cooked poultry or lean meat").
+protein("4 ounces (100g) cooked fish or shellfish").
+protein("1 cup (250 ml) nonfat or low-fat milk").
+protein("1 whole egg + 4 egg whites OR 7 egg whites").
+protein("5 ounces (125g) tofu").
+
+fruit("1 cup (80g) of cut fruit or berries").
+fruit("1 average piece of fruit (apple, orange, banana, etc.)").
+fruit("1 small handful of dried fruit").
+fruit("½ cup (125 ml) 100% fruit juice").
+
+
+apple(mango).
+apple(orange).
+
+
+
+vegetable("1 cup (80g) any vegetable").
+vegetable("Leafy greens – any amount.").
+
+
+starch("½ cup (150g) cooked grain (rice, pasta, quinoa, etc), beans, lentils, corn kernels or peas").
+starch("1 slice whole grain bread").
+starch("½ large potato, white or sweet").
+starch("1 cup (250g) cooked rolled oats").
+starch("2 corn tortillas").
+
+
+snack("1 Protein Snack Bar Deluxe").
+snack("1 ounce (30g) roasted soy nuts").
+snack("1 cup (250 ml) nonfat or low-fat milk").
+snack("4 TBSP (60g) hummus").
+snack("½ cup (125g) nonfat cottage cheese or flavored yogurt").
+snack("1 ounce (30g) low-fat mozzarella cheese").
+snack("½ cup (85 g) edamame soybeans").
+
+
+enhancer("2 TSP (10 ml) olive, canola, sunflower or safflower oil").
+enhancer("2 TBSP (30g) reduced-calorie salad dressing").
+enhancer("¼ medium avocado").
+enhancer("small handful of nuts").
+enhancer("½ ounce (15g) grated Parmesan cheese").
+enhancer("1 TBSP (20g) jam, jelly, honey, syrup, sugar").
+enhancer("2 TBSP (30g) light cream for coffee").
+enhancer("2 TBSP (30g) ketchup").
+enhancer("2 TBSP (30g) low fat sour cream or low-fat mayonnaise").
+
+
+freefood("Mustard").
+freefood("Vinegar").
+freefood("Herbs and spices").
+freefood("Garlic, onion").
+freefood("Lemon, lime juices").
+freefood("Salsa, hot pepper sauces, horseradish, Worcestershire sauce").
+freefood("Extracts (vanilla, peppermint, etc.)").
+freefood("Broth or bouillon").
+freefood("Soy sauce").
+freefood("Calorie-free beverages and sweeteners").
+freefood("Pan sprays for cooking").
+freefood(a).
